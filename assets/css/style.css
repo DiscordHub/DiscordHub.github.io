@@ -1,0 +1,25 @@
+body {
+
+    background-color: #7289da;
+    position: absolute;
+
+}
+
+.test {
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+  @keyframes MoveUpDown {
+    0% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
+    100% {
+      bottom: 0;
+    }
+  }
